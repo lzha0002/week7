@@ -1,0 +1,37 @@
+<html>
+        <head>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+<body>
+    <h1>Update Tasks</h1></br>
+    <h1>
+            <a href="/inserttask">Insert New Task</a><br>
+            <a href="/getalltask">Get All Task</a><br>
+            <a href="/deletetask">Delete Task</a><br>
+            <a href="/deletecompletedtasks">Delete Completed Tasks</a><br>
+            <a href="/updatetaskstatus">Update Task Status</a><br>
+            <a href="/insertnewdeveloper">Insert New Developer</a><br>
+            <a href="/getalldeveloper">Get All Developer</a><br>
+    </h1>
+    <form action="/newdeveloperpost" method="POST">
+        <label>First Name</label>
+        <input type="text" placeholder="First Name" name="firstname"> </br>
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name" name="lastname"></br>
+        <label>Level</label>
+        <select name="level">
+            <option value="Beginner">Beginner</option>
+            <option value="Expert">Expert</option></select> </br>
+        <label>Address State</label>
+        <input type="text" placeholder="Address State" name="state"></br>
+        <label>Address Suburb</label>
+        <input type="text" placeholder="Address Suburb" name="suburb"></br>
+        <label>Address Street</label>
+        <input type="text" placeholder="Address Street" name="street"></br>
+        <label>Address Unit</label>
+        <input type="text" placeholder="Address Unit" name="unit"></br>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
